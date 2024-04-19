@@ -1,0 +1,43 @@
+#header {
+    display: flex;
+    justify-content: center;
+    background-color: #A9B388;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+#btn-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+#btn{
+    margin-top: 200px;
+    background: #A9B388;
+    padding: 25px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+#btn:hover {
+    background: linear-gradient(90deg, rgba(63,205,115,0.7511379551820728) 17%, rgba(76,109,189,0.38139005602240894) 49%);
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: black;
+}
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
